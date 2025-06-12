@@ -48,12 +48,7 @@ const Navbar = () => {
                         <a href="#about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
                             About
                         </a>
-                    </li>
-                    <li>
-                        <a href="#skills" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
-                            Skills
-                        </a>
-                    </li>
+                    </li>                    
                     <li>
                         <a href="#projects" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
                             Projects
@@ -75,12 +70,7 @@ const Navbar = () => {
                             <a href="#about" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
                                 About
                             </a>
-                        </li>
-                        <li>
-                            <a href="#skills" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
-                                Skills
-                            </a>
-                        </li>
+                        </li>                        
                         <li>
                             <a href="#projects" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition">
                                 Projects

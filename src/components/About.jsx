@@ -1,7 +1,6 @@
 import myImage from '../assets/subin.png';
-import { FaReact, FaAngular, FaJsSquare, FaHtml5, FaCss3Alt, FaBootstrap, FaNodeJs, FaDatabase} from 'react-icons/fa';
-import { SiJquery } from "react-icons/si";
-import { SiTailwindcss, SiTypescript, SiExpress } from 'react-icons/si';
+import { FaReact, FaAngular, FaJsSquare, FaHtml5, FaCss3Alt, FaBootstrap, FaNodeJs, FaDatabase } from 'react-icons/fa';
+import { SiJquery, SiTailwindcss, SiTypescript, SiExpress } from 'react-icons/si';
 
 const skills = [
     { name: 'React', icon: <FaReact className="inline-block mr-1 text-blue-500" /> },
@@ -20,8 +19,8 @@ const skills = [
 
 const About = () => {
     return (
-        <div className="bg-gradient-to-br from-blue-500 to-pink-200 min-h-screen flex items-center justify-center p-4">
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-2xl max-w-4xl w-full p-6 md:p-8 animate-fade-in">
+        <div id="about" className="bg-gradient-to-br from-blue-500 to-pink-200 py-20">
+            <div className="max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-2xl p-6 md:p-8 animate-fade-in">
                 <div className="flex flex-col md:flex-row">
                     {/* Image and Name */}
                     <div className="md:w-1/3 text-center mb-6 md:mb-0">
@@ -46,18 +45,10 @@ const About = () => {
                             {skills.map(({ name, icon }) => (
                                 <div
                                     key={name}
-                                    className="
-                    flex items-center gap-3
-                    bg-gradient-to-r from-purple-100 to-purple-200 dark:from-gray-700 dark:to-gray-800
-                    rounded-lg
-                    px-4 py-3
-                    shadow-md
-                    hover:shadow-lg
-                    transition-shadow duration-300
-                    cursor-default
-                    w-full sm:w-[48%] md:w-[30%]
-                    text-center
-                    justify-center">
+                                    className="flex items-center gap-3
+                                    bg-gradient-to-r from-purple-100 to-purple-200 dark:from-gray-700 dark:to-gray-800
+                                    rounded-lg px-4 py-3 shadow-md hover:shadow-lg transition-shadow duration-300
+                                    cursor-default w-full sm:w-[48%] md:w-[30%] text-center justify-center">
                                     <span className="text-2xl sm:text-3xl text-purple-700 dark:text-pink-400">{icon}</span>
                                     <span className="text-purple-800 dark:text-white font-semibold text-base sm:text-lg">{name}</span>
                                 </div>
