@@ -39,11 +39,10 @@ const About = () => {
         </div>
 
         <h2 className="text-3xl font-semibold text-purple-800 dark:text-white mb-3">About Me</h2>
-        <p className="text-xl text-gray-700 dark:text-gray-300 text-base leading-relaxed mb-6 text-justify">
-          Hello, I'm <span className="text-xl font-semibold text-gray-900 dark:text-white">Subin</span> — a front-end developer skilled in
-          <span className="text-blue-600 font-medium"> React</span> and
-          <span className="text-red-500 font-medium"> Angular</span>. I enjoy building clean and modern UIs with
-          <span className="text-teal-600 font-medium"> Tailwind CSS</span>.
+        <p className="text-xl text-gray-600 dark:text-gray-300 text-base leading-relaxed mb-6 text-justify tracking-tight sm:tracking-normal">
+          Hello, I'm Subin — a front-end developer skilled in
+           React Angular. I enjoy building clean and modern UIs with
+           Tailwind CSS.
         </p>
 
         <h2 className="text-xl font-semibold text-purple-800 dark:text-white mb-4">Skills</h2>
