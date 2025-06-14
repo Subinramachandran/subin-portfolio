@@ -31,7 +31,7 @@ const About = () => {
             <img
               src={myImage}
               alt="Subin"
-              className="rounded-full w-40 h-40 md:w-80 md:h-80"
+              className="rounded-full w-96 h-96 md:w-96 md:h-90"
             />
           </div>
           <h1 className="text-3xl font-bold text-purple-800 dark:text-white">Subin</h1>
