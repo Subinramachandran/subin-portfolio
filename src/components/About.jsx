@@ -41,7 +41,7 @@ const About = () => {
         <h2 className="text-3xl font-semibold text-purple-800 dark:text-white mb-3">About Me</h2>
         <p className="text-xl text-gray-600 dark:text-gray-300 text-base leading-relaxed mb-6 text-justify tracking-tight sm:tracking-normal">
           Hello, I'm Subin — a front-end developer skilled in
-           React Angular. I enjoy building clean and modern UIs with
+           React and Angular. I enjoy building clean and modern UIs with
            Tailwind CSS.
         </p>
 
