@@ -73,12 +73,7 @@ const Contact = () => {
                     >
                         Send Message
                     </button>
-
-                    {success && (
-                        <p className="text-green-600 text-sm text-center mt-2">
-                            Message sent successfully!
-                        </p>
-                    )}
+                    
                 </form>
             </div>
         </section>
