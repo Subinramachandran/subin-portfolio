@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import Swal from 'sweetalert2'; // ✅ SweetAlert2 import
+import Swal from 'sweetalert2'
 
 const Contact = () => {
     const form = useRef();
@@ -17,12 +17,11 @@ const Contact = () => {
                     setSuccess(true);
                     form.current.reset();
 
-                    // ✅ SweetAlert2 success popup
                     Swal.fire({
                         icon: 'success',
                         title: 'Message Sent!',
                         text: 'Thank you for contacting me.',
-                        confirmButtonColor: '#8b5cf6' // Tailwind purple-500
+                        confirmButtonColor: '#8b5cf6' 
                     });
                 },
                 (error) => {
@@ -31,7 +30,7 @@ const Contact = () => {
                         icon: 'error',
                         title: 'Oops...',
                         text: 'Something went wrong. Please try again later.',
-                        confirmButtonColor: '#ef4444' // Tailwind red-500
+                        confirmButtonColor: '#ef4444' 
                     });
                 }
             );
