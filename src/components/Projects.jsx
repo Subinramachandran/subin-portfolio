@@ -14,6 +14,18 @@ const projects = [
         github: 'https://github.com/Subinramachandran/tailwindcss',
         demo: 'https://subinramachandran.github.io/tailwindcss/',
     },
+    {
+        title: 'Typing Tool',
+        description: 'This Typing Tool is a responsive web-based application designed to help users improve their typing skills. It measures typing speed (WPM) and accuracy in real time as users type a sample text.',
+        github: 'https://github.com/Subinramachandran/TypingTool',
+        demo: 'https://subinramachandran.github.io/TypingTool/',
+    },
+    {
+        title: 'E-commerce website',
+        description: 'A modern and responsive e-commerce website user interface built with React.js and styled using Tailwind CSS. This project showcases a visually appealing layout for an online store, featuring essential components of a real-world e-commerce platform.',
+        github: 'https://github.com/Subinramachandran/e-commerce',
+        demo: 'https://subinramachandran.github.io/e-commerce/',
+    },
 ];
 
 const Projects = () => {

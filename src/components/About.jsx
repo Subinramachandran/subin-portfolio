@@ -40,9 +40,7 @@ const About = () => {
 
         <h2 className="text-3xl font-semibold text-purple-800 dark:text-white mb-3">About Me</h2>
         <p className="text-xl text-gray-600 dark:text-gray-300 text-base leading-relaxed mb-6 text-justify tracking-tight sm:tracking-normal">
-          Hello, I'm Subin — a front-end developer skilled in
-           React and Angular. I enjoy building clean and modern UIs with
-           Tailwind CSS.
+          Hello, I'm Subin. I'm a passionate front-end developer with expertise in React and Angular, dedicated to building clean, responsive, and user-friendly interfaces. I thrive on transforming ideas into engaging digital experiences, leveraging modern technologies like Tailwind CSS to deliver high-quality solutions. My commitment to continuous learning and attention to detail ensures that every project I work on meets the highest standards of design and functionality.
         </p>
 
         <h2 className="text-xl font-semibold text-purple-800 dark:text-white mb-4">Skills</h2>
